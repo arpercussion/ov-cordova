@@ -13,7 +13,7 @@ angular.module('ovCordova.plugins.accelerometer', [])
             if (angular.isUndefined(navigator.accelerometer) || !angular.isFunction(navigator.accelerometer.watchAcceleration)) {
                 defer.promise.cancel = angular.noop;
                 defer.promise.clearWatch = angular.noop;
-                defer.reject('Device do not support watchAcceleration');
+                defer.reject('Device does not support watchAcceleration');
             } else {
                 defer.promise.cancel = function () {
                     navigator.accelerometer.clearWatch(watchID);
