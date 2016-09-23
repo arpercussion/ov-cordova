@@ -13,7 +13,7 @@ angular.module('ovCordova.plugins.geolocation', [])
             if (angular.isUndefined(navigator.geolocation) || !angular.isFunction(navigator.geolocation.watchPosition)) {
                 defer.promise.cancel = angular.noop;
                 defer.promise.clearWatch = angular.noop;
-                defer.reject('Device do not support watchPosition');
+                defer.reject('Device does not support watchPosition');
             } else {
                 defer.promise.cancel = function () {
                     navigator.geolocation.clearWatch(watchID);

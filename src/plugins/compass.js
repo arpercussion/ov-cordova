@@ -13,7 +13,7 @@ angular.module('ovCordova.plugins.compass', [])
             if (angular.isUndefined(navigator.compass) || !angular.isFunction(navigator.compass.watchHeading)) {
                 defer.promise.cancel = angular.noop;
                 defer.promise.clearWatch = angular.noop;
-                defer.reject('Device do not support watchHeading');
+                defer.reject('Device does not support watchHeading');
             } else {
                 defer.promise.cancel = function () {
                     navigator.compass.clearWatch(watchID);
