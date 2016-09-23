@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "main": "dist/ov-cordova",
   "license": "MIT",
+  "description": "AngularJS wrappers for Cordova plugins.",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "grunt": "^0.4.5",
