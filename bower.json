@@ -1,41 +1,36 @@
 {
-  "name": "psCordova",
+  "name": "ovCordova",
   "version": "0.0.0",
-  "homepage": "https://www.percussion.com",
-  "authors": [
-    "Anthony Romano <anthony_romano@percussion.com>"
-  ],
+  "license": "MIT",
+  "private": true,
   "description": "AngularJS wrappers for Cordova plugins.",
   "appPath": "src",
   "main": [
-    "./dist/ps-cordova.js"
+    "./dist/ov-cordova.js"
   ],
   "ignore": [
     "**/.*",
     "Gruntfile.js",
-    "test",
     "src"
   ],
   "dependencies": {
     "angular": ">= 1.2.23"
   },
+  "devDependencies": {
+    "angular": ">= 1.2.23"
+  },
   "keywords": [
-    "psCordova",
-    "ps-cordova",
-    "pscordova",
-    "ps cordova",
+    "ovCordova",
+    "ov-cordova",
+    "ovcordova",
+    "ov cordova",
     "cordova",
     "phonegap",
-    "angular",
-    "angularjs",
-    "ionic",
-    "cordova plugin"
+    "cordova plugin",
+    "phonegap plugin"
   ],
-  "license": "MIT",
-  "private": true,
-  "devDependencies": {
-    "angular": ">= 1.2.23",
-    "angular-mocks": ">= 1.2.23",
-    "jquery": "~2.1.1"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arpercussion/ov-cordova.git"
   }
 }
