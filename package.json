@@ -1,11 +1,8 @@
 {
   "name": "ps-cordova",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/ps-cordova",
-  "repository": {
-    "url": "git://github.com/percussion/ps-cordova.git"
-  },
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "grunt": "^0.4.5",
@@ -28,5 +25,8 @@
     {
       "type": "MIT"
     }
-  ]
+  ],
+  "publishConfig": {
+    "registry": "http://repo-man.cloud.percussion.com:8081/nexus/content/repositories/npm-snapshots/"
+  }
 }
