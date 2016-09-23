@@ -21,7 +21,7 @@ angular.module('ovCordova.plugins.accelerometer', [])
             if (angular.isUndefined(navigator.accelerometer) || !angular.isFunction(navigator.accelerometer.watchAcceleration)) {
                 defer.promise.cancel = angular.noop;
                 defer.promise.clearWatch = angular.noop;
-                defer.reject('Device do not support watchAcceleration');
+                defer.reject('Device does not support watchAcceleration');
             } else {
                 defer.promise.cancel = function () {
                     navigator.accelerometer.clearWatch(watchID);
@@ -68,7 +68,7 @@ angular.module('ovCordova.plugins.compass', [])
             if (angular.isUndefined(navigator.compass) || !angular.isFunction(navigator.compass.watchHeading)) {
                 defer.promise.cancel = angular.noop;
                 defer.promise.clearWatch = angular.noop;
-                defer.reject('Device do not support watchHeading');
+                defer.reject('Device does not support watchHeading');
             } else {
                 defer.promise.cancel = function () {
                     navigator.compass.clearWatch(watchID);
@@ -115,7 +115,7 @@ angular.module('ovCordova.plugins.geolocation', [])
             if (angular.isUndefined(navigator.geolocation) || !angular.isFunction(navigator.geolocation.watchPosition)) {
                 defer.promise.cancel = angular.noop;
                 defer.promise.clearWatch = angular.noop;
-                defer.reject('Device do not support watchPosition');
+                defer.reject('Device does not support watchPosition');
             } else {
                 defer.promise.cancel = function () {
                     navigator.geolocation.clearWatch(watchID);
