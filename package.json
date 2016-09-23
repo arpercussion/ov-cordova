@@ -1,7 +1,7 @@
 {
   "name": "ps-cordova",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.0",
   "main": "dist/ps-cordova",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
