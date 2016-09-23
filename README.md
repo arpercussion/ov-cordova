@@ -3,14 +3,14 @@
 
 ### Cordova plugins for AngularJS
 
-ovCordova are simple AngularJS wrappers for Cordova plugins. Available plugins are listed below.
+ovCordova is a set of AngularJS wrappers for Cordova plugins.  Available plugins are listed below.
 
 ## Installation
 
 Install manually, or from bower:
 
 ```bash
-$ bower install ovCordova
+$ bower install git://github.com/arpercussion/ov-cordova.git
 ```
 
 ## Plugins `(3+)`
