@@ -1,5 +1,5 @@
 (function(){
-
+//foo
 'use strict';
 
 angular.module('ovCordova', [
