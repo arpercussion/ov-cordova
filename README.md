@@ -15,6 +15,6 @@ $ bower install git://github.com/arpercussion/ov-cordova.git
 
 ## Plugins `(3+)`
 
-- [Device Motion](https://github.com/apache/cordova-plugin-device-motion) *
-- [Device Orientation](https://github.com/apache/cordova-plugin-device-orientation) *
-- [Geolocation](https://github.com/apache/cordova-plugin-geolocation) *
+- [Device Motion](https://github.com/apache/cordova-plugin-device-motion)
+- [Device Orientation](https://github.com/apache/cordova-plugin-device-orientation)
+- [Geolocation](https://github.com/apache/cordova-plugin-geolocation)
